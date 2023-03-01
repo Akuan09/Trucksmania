@@ -1,0 +1,432 @@
+CRITICAL - 2023-02-06 08:42:49 --> Undefined variable $horaire
+in APPPATH/Views/myEvent.php on line 20.
+ 1 APPPATH/Views/myEvent.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/myEvent.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/GestionEvent.php(103): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\GestionEvent->myEvent()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 08:49:41 --> Undefined array key 0
+in APPPATH/Views/eventPerso.php on line 19.
+ 1 APPPATH/Views/eventPerso.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/eventPerso.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/GestionEvent.php(38): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\GestionEvent->eventPerso()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 09:24:06 --> syntax error, unexpected token "}"
+in APPPATH/Controllers/ModifAccount.php on line 12.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 09:24:33 --> Undefined variable $_SESSION
+in APPPATH/Controllers/ModifAccount.php on line 12.
+ 1 APPPATH/Controllers/ModifAccount.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\ModifAccount->modifData()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 09:34:27 --> syntax error, unexpected token "}"
+in APPPATH/Models/DatabaseModel.php on line 134.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 APPPATH/Controllers/ModifAccount.php(11): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\ModifAccount->modifData()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 09:34:36 --> Undefined array key "role"
+in APPPATH/Controllers/ModifAccount.php on line 15.
+ 1 APPPATH/Controllers/ModifAccount.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\ModifAccount->modifData()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-06 09:34:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET Prenom = 'Sanji' SET Tel = 'bilibili' SET Mail = '{data['mail']}' SET Adress' at line 1 in /app/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/app/Models/DatabaseModel.php(133): CodeIgniter\Database\BaseConnection->query()
+#4 /app/app/Controllers/ModifAccount.php(16): App\Models\DatabaseModel->upd()
+#5 /app/system/CodeIgniter.php(934): App\Controllers\ModifAccount->modifData()
+#6 /app/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-06 09:34:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET Prenom = 'Sanji' SET Tel = 'bilibili' SET Mail = '{data['mail']}' SET Adress' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 APPPATH/Models/DatabaseModel.php(133): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/ModifAccount.php(16): App\Models\DatabaseModel->upd()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\ModifAccount->modifData()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-06 09:35:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET Prenom = 'Sanji' SET Tel = 'bilibili' SET Mail = 'newmail@yenatjrpas.com' SE' at line 1 in /app/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/app/Models/DatabaseModel.php(133): CodeIgniter\Database\BaseConnection->query()
+#4 /app/app/Controllers/ModifAccount.php(16): App\Models\DatabaseModel->upd()
+#5 /app/system/CodeIgniter.php(934): App\Controllers\ModifAccount->modifData()
+#6 /app/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-06 09:35:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET Prenom = 'Sanji' SET Tel = 'bilibili' SET Mail = 'newmail@yenatjrpas.com' SE' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 APPPATH/Models/DatabaseModel.php(133): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/ModifAccount.php(16): App\Models\DatabaseModel->upd()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\ModifAccount->modifData()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-06 09:36:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET Prenom='Sanji' SET Tel='bilibili' SET Mail='newmail@yenatjrpas.com' SET Adre' at line 1 in /app/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/app/Models/DatabaseModel.php(133): CodeIgniter\Database\BaseConnection->query()
+#4 /app/app/Controllers/ModifAccount.php(16): App\Models\DatabaseModel->upd()
+#5 /app/system/CodeIgniter.php(934): App\Controllers\ModifAccount->modifData()
+#6 /app/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-06 09:36:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET Prenom='Sanji' SET Tel='bilibili' SET Mail='newmail@yenatjrpas.com' SET Adre' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 APPPATH/Models/DatabaseModel.php(133): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/ModifAccount.php(16): App\Models\DatabaseModel->upd()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\ModifAccount->modifData()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 09:44:31 --> Undefined array key 0
+in APPPATH/Controllers/ModifAccount.php on line 16.
+ 1 APPPATH/Controllers/ModifAccount.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\ModifAccount->modifData()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 09:44:44 --> syntax error, unexpected variable "$id"
+in APPPATH/Controllers/ModifAccount.php on line 17.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 09:44:56 --> Array to string conversion
+in APPPATH/Controllers/ModifAccount.php on line 17.
+ 1 APPPATH/Controllers/ModifAccount.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\ModifAccount->modifData()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-06 09:47:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1 in /app/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/app/Models/DatabaseModel.php(133): CodeIgniter\Database\BaseConnection->query()
+#4 /app/app/Controllers/ModifAccount.php(19): App\Models\DatabaseModel->upd()
+#5 /app/system/CodeIgniter.php(934): App\Controllers\ModifAccount->modifData()
+#6 /app/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-06 09:47:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 APPPATH/Models/DatabaseModel.php(133): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/ModifAccount.php(19): App\Models\DatabaseModel->upd()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\ModifAccount->modifData()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 09:48:23 --> syntax error, unexpected token "echo"
+in APPPATH/Controllers/ModifAccount.php on line 18.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 12:10:49 --> syntax error, unexpected token "}"
+in APPPATH/Controllers/Command.php on line 10.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 12:10:57 --> Undefined array key "command"
+in APPPATH/Controllers/Command.php on line 9.
+ 1 APPPATH/Controllers/Command.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Command->start()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 12:11:27 --> unserialize(): Error at offset 0 of 66 bytes
+in APPPATH/Controllers/Command.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Command.php(9): unserialize()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Command->start()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 12:12:31 --> Undefined array key "commande"
+in APPPATH/Controllers/Command.php on line 9.
+ 1 APPPATH/Controllers/Command.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Command->start()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 12:12:40 --> Undefined array key "commande"
+in APPPATH/Controllers/Command.php on line 9.
+ 1 APPPATH/Controllers/Command.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Command->start()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 12:12:47 --> Undefined array key "commande"
+in APPPATH/Controllers/Command.php on line 9.
+ 1 APPPATH/Controllers/Command.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Command->start()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 12:15:17 --> Undefined array key "spe"
+in APPPATH/Views/findtruck.php on line 10.
+ 1 APPPATH/Views/findtruck.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/findtruck.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/InfosTrucks.php(25): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\InfosTrucks->getData()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 12:18:56 --> Undefined variable $page
+in APPPATH/Views/coCommand.php on line 15.
+ 1 APPPATH/Views/coCommand.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/coCommand.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Command.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Command->start()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 12:19:21 --> Undefined variable $page
+in APPPATH/Views/coCommand.php on line 15.
+ 1 APPPATH/Views/coCommand.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/coCommand.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Command.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Command->start()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 12:19:23 --> Undefined variable $page
+in APPPATH/Views/coCommand.php on line 15.
+ 1 APPPATH/Views/coCommand.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/coCommand.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Command.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Command->start()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 12:19:34 --> Undefined variable $page
+in APPPATH/Views/coCommand.php on line 15.
+ 1 APPPATH/Views/coCommand.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/coCommand.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Command.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Command->start()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 12:37:09 --> syntax error, unexpected token "(", expecting "," or ";"
+in APPPATH/Controllers/Command.php on line 5.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 12:37:23 --> Class "App\Controllers\UsersModel" not found
+in APPPATH/Controllers/Command.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Command->verifConnection()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 12:49:13 --> Undefined array key "mail"
+in APPPATH/Controllers/Command.php on line 40.
+ 1 APPPATH/Controllers/Command.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Command.php(31): App\Controllers\Command->verifMail()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Command->verifConnection()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 12:49:26 --> Undefined array key "Mdp"
+in APPPATH/Controllers/Command.php on line 48.
+ 1 APPPATH/Controllers/Command.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Command.php(31): App\Controllers\Command->verifPsw()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Command->verifConnection()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 13:58:49 --> Undefined array key "spe"
+in APPPATH/Views/findtruck.php on line 10.
+ 1 APPPATH/Views/findtruck.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/findtruck.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/InfosTrucks.php(25): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\InfosTrucks->getData()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 14:04:16 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH/Controllers/Command.php on line 12.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 14:13:02 --> Undefined array key "mail"
+in APPPATH/Controllers/Command.php on line 72.
+ 1 APPPATH/Controllers/Command.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Command->addCommand()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-06 14:14:19 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`TrucksmaniaDB`.`Commandes`, CONSTRAINT `user_fk` FOREIGN KEY (`id_user`) REFERENCES `Users` (`id_user`) ON DELETE CASCADE ON UPDATE CASCADE) in /app/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/app/Models/DatabaseModel.php(138): CodeIgniter\Database\BaseConnection->query()
+#4 /app/app/Controllers/Command.php(78): App\Models\DatabaseModel->newCommand()
+#5 /app/system/CodeIgniter.php(934): App\Controllers\Command->addCommand()
+#6 /app/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-06 14:14:19 --> Cannot add or update a child row: a foreign key constraint fails (`TrucksmaniaDB`.`Commandes`, CONSTRAINT `user_fk` FOREIGN KEY (`id_user`) REFERENCES `Users` (`id_user`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 APPPATH/Models/DatabaseModel.php(138): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Command.php(78): App\Models\DatabaseModel->newCommand()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Command->addCommand()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-06 14:16:48 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`TrucksmaniaDB`.`Commandes`, CONSTRAINT `food_truck_fk` FOREIGN KEY (`id_food_truck`) REFERENCES `Food_trucks` (`id_food_truck`) ON DELETE CASCADE ON UPDATE CASCADE) in /app/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/app/Models/DatabaseModel.php(138): CodeIgniter\Database\BaseConnection->query()
+#4 /app/app/Controllers/Command.php(78): App\Models\DatabaseModel->newCommand()
+#5 /app/system/CodeIgniter.php(934): App\Controllers\Command->addCommand()
+#6 /app/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-06 14:16:48 --> Cannot add or update a child row: a foreign key constraint fails (`TrucksmaniaDB`.`Commandes`, CONSTRAINT `food_truck_fk` FOREIGN KEY (`id_food_truck`) REFERENCES `Food_trucks` (`id_food_truck`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 APPPATH/Models/DatabaseModel.php(138): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Command.php(78): App\Models\DatabaseModel->newCommand()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Command->addCommand()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-06 14:17:26 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`TrucksmaniaDB`.`Commandes`, CONSTRAINT `user_fk` FOREIGN KEY (`id_user`) REFERENCES `Users` (`id_user`)) in /app/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/app/Models/DatabaseModel.php(138): CodeIgniter\Database\BaseConnection->query()
+#4 /app/app/Controllers/Command.php(78): App\Models\DatabaseModel->newCommand()
+#5 /app/system/CodeIgniter.php(934): App\Controllers\Command->addCommand()
+#6 /app/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-06 14:17:26 --> Cannot add or update a child row: a foreign key constraint fails (`TrucksmaniaDB`.`Commandes`, CONSTRAINT `user_fk` FOREIGN KEY (`id_user`) REFERENCES `Users` (`id_user`))
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 APPPATH/Models/DatabaseModel.php(138): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Command.php(78): App\Models\DatabaseModel->newCommand()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Command->addCommand()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-06 14:19:51 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`TrucksmaniaDB`.`Commandes`, CONSTRAINT `food_truck_fk` FOREIGN KEY (`id_food_truck`) REFERENCES `Food_trucks` (`id_food_truck`)) in /app/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/app/Models/DatabaseModel.php(138): CodeIgniter\Database\BaseConnection->query()
+#4 /app/app/Controllers/Command.php(78): App\Models\DatabaseModel->newCommand()
+#5 /app/system/CodeIgniter.php(934): App\Controllers\Command->addCommand()
+#6 /app/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /app/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-06 14:19:51 --> Cannot add or update a child row: a foreign key constraint fails (`TrucksmaniaDB`.`Commandes`, CONSTRAINT `food_truck_fk` FOREIGN KEY (`id_food_truck`) REFERENCES `Food_trucks` (`id_food_truck`))
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 APPPATH/Models/DatabaseModel.php(138): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Command.php(78): App\Models\DatabaseModel->newCommand()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Command->addCommand()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 14:20:25 --> Undefined variable $data
+in APPPATH/Controllers/Command.php on line 78.
+ 1 APPPATH/Controllers/Command.php(78): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Command->addCommand()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 14:22:00 --> Undefined array key "id_ft"
+in APPPATH/Controllers/Command.php on line 73.
+ 1 APPPATH/Controllers/Command.php(73): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Command->addCommand()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 14:22:55 --> Undefined property: App\Controllers\Command::$id_ft
+in APPPATH/Controllers/Command.php on line 75.
+ 1 APPPATH/Controllers/Command.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Command->addCommand()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 14:26:47 --> Undefined array key "commande"
+in APPPATH/Controllers/Command.php on line 54.
+ 1 APPPATH/Controllers/Command.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Command->addCommand()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

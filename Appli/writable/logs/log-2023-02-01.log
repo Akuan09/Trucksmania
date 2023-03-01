@@ -1,0 +1,1146 @@
+CRITICAL - 2023-02-01 09:02:06 --> Undefined array key "page"
+in APPPATH/Views/connexion/connexion.php on line 17.
+ 1 APPPATH/Views/connexion/connexion.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/connexion/client.php(14): include('APPPATH/Views/connexion/connexion.php')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/connexion/client.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Pages.php(24): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Pages->view()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 09:02:28 --> Unclosed '(' does not match ']'
+in APPPATH/Views/connexion/connexion.php on line 17.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Pages.php(24): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Pages->view()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 09:14:55 --> Array to string conversion
+in APPPATH/Controllers/Verif.php on line 48.
+ 1 APPPATH/Controllers/Verif.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Verif.php(20): App\Controllers\Verif->openSession()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 09:36:34 --> Undefined variable $message
+in APPPATH/Views/connexion/connexion.php on line 16.
+ 1 APPPATH/Views/connexion/connexion.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/connexion/client.php(14): include('APPPATH/Views/connexion/connexion.php')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/connexion/client.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Verif.php(24): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 09:38:00 --> Undefined variable $message
+in APPPATH/Views/connexion/connexion.php on line 16.
+ 1 APPPATH/Views/connexion/connexion.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/connexion/client.php(15): include('APPPATH/Views/connexion/connexion.php')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/connexion/client.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Verif.php(24): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 09:38:07 --> Undefined variable $message
+in APPPATH/Views/connexion/connexion.php on line 16.
+ 1 APPPATH/Views/connexion/connexion.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/connexion/client.php(15): include('APPPATH/Views/connexion/connexion.php')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/connexion/client.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Pages.php(24): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Pages->view()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 09:40:32 --> Undefined variable $message
+in APPPATH/Views/connexion/connexion.php on line 17.
+ 1 APPPATH/Views/connexion/connexion.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/connexion/client.php(14): include('APPPATH/Views/connexion/connexion.php')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/connexion/client.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Verif.php(24): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 09:43:02 --> Undefined variable $message
+in APPPATH/Views/connexion/client.php on line 14.
+ 1 APPPATH/Views/connexion/client.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/connexion/client.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Verif.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 09:45:53 --> syntax error, unexpected token "return"
+in APPPATH/Controllers/Verif.php on line 23.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 09:46:18 --> syntax error, unexpected token "echo"
+in APPPATH/Controllers/Verif.php on line 23.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 09:47:23 --> syntax error, unexpected identifier "bg", expecting "," or ";"
+in APPPATH/Controllers/Verif.php on line 23.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 09:47:33 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH/Controllers/Verif.php on line 25.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 09:53:57 --> Too few arguments to function App\Controllers\CreateAccount::verifIfExist(), 0 passed in /app/app/Controllers/CreateAccount.php on line 16 and exactly 1 expected
+in APPPATH/Controllers/CreateAccount.php on line 21.
+ 1 APPPATH/Controllers/CreateAccount.php(16): App\Controllers\CreateAccount->verifIfExist()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CreateAccount->start()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 09:54:43 --> Cannot use [] for reading
+in APPPATH/Controllers/CreateAccount.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CreateAccount->start()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 09:54:52 --> Undefined variable $db
+in APPPATH/Controllers/CreateAccount.php on line 22.
+ 1 APPPATH/Controllers/CreateAccount.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/CreateAccount.php(16): App\Controllers\CreateAccount->verifIfExist()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CreateAccount->start()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 09:57:37 --> foreach() argument must be of type array|object, null given
+in APPPATH/Controllers/CreateAccount.php on line 26.
+ 1 APPPATH/Controllers/CreateAccount.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/CreateAccount.php(18): App\Controllers\CreateAccount->verifIfExist()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CreateAccount->start()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 09:58:39 --> syntax error, unexpected token "if"
+in APPPATH/Controllers/CreateAccount.php on line 18.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 09:58:55 --> syntax error, unexpected token "}"
+in APPPATH/Controllers/CreateAccount.php on line 23.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 09:59:24 --> syntax error, unexpected token "private"
+in APPPATH/Controllers/CreateAccount.php on line 25.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 09:59:32 --> syntax error, unexpected token "if"
+in APPPATH/Controllers/CreateAccount.php on line 18.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 09:59:42 --> syntax error, unexpected token "}"
+in APPPATH/Controllers/CreateAccount.php on line 23.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 09:59:47 --> syntax error, unexpected token "}"
+in APPPATH/Controllers/CreateAccount.php on line 23.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 10:03:41 --> Invalid file: "inscription/client.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/CreateAccount.php(21): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CreateAccount->start()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 10:06:56 --> Undefined variable $_POSt
+in APPPATH/Controllers/CreateAccount.php on line 23.
+ 1 APPPATH/Controllers/CreateAccount.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CreateAccount->start()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 10:55:58 --> syntax error, unexpected token ",", expecting "]"
+in APPPATH/Controllers/CreateAccount.php on line 57.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 10:57:41 --> Undefined variable $db
+in APPPATH/Controllers/CreateAccount.php on line 59.
+ 1 APPPATH/Controllers/CreateAccount.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/CreateAccount.php(24): App\Controllers\CreateAccount->createAccount()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CreateAccount->start()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:06:46 --> Invalid file: "/.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Verif.php(21): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:07:38 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH/Views/accueil.php on line 2.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/accueil.php(2): session_start()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/accueil.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Verif.php(21): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:10:14 --> syntax error, unexpected token "<"
+in APPPATH/Views/templates/header.php on line 18.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Verif.php(20): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:10:23 --> syntax error, unexpected token "<"
+in APPPATH/Views/templates/header.php on line 18.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Verif.php(20): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:11:27 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH/Views/templates/header.php on line 30.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Verif.php(20): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:18:20 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH/Views/templates/header.php on line 20.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Verif.php(20): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:18:50 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH/Views/templates/header.php on line 20.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Verif.php(20): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:20:38 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH/Views/templates/header.php on line 19.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Verif.php(20): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:27:22 --> Undefined variable $_SESSION
+in APPPATH/Views/templates/header.php on line 18.
+ 1 APPPATH/Views/templates/header.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Pages->view()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:27:23 --> Undefined variable $_SESSION
+in APPPATH/Views/templates/header.php on line 18.
+ 1 APPPATH/Views/templates/header.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Pages->view()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:27:25 --> Undefined variable $_SESSION
+in APPPATH/Views/templates/header.php on line 18.
+ 1 APPPATH/Views/templates/header.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Pages->view()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:27:25 --> Undefined variable $_SESSION
+in APPPATH/Views/templates/header.php on line 18.
+ 1 APPPATH/Views/templates/header.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Pages->view()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:27:27 --> Undefined variable $_SESSION
+in APPPATH/Views/templates/header.php on line 18.
+ 1 APPPATH/Views/templates/header.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Pages->view()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:27:29 --> Undefined variable $_SESSION
+in APPPATH/Views/templates/header.php on line 18.
+ 1 APPPATH/Views/templates/header.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Pages->view()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:27:30 --> Undefined variable $_SESSION
+in APPPATH/Views/templates/header.php on line 18.
+ 1 APPPATH/Views/templates/header.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Pages->view()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:27:35 --> Undefined variable $_SESSION
+in APPPATH/Views/templates/header.php on line 18.
+ 1 APPPATH/Views/templates/header.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(11): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:28:34 --> session_destroy(): Trying to destroy uninitialized session
+in APPPATH/Controllers/Pages.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Pages.php(28): session_destroy()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Pages->logOut()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:28:56 --> session_destroy(): Trying to destroy uninitialized session
+in APPPATH/Controllers/Pages.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Pages.php(28): session_destroy()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Pages->logOut()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:29:08 --> Undefined array key "lastname"
+in APPPATH/Views/templates/header.php on line 21.
+ 1 APPPATH/Views/templates/header.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(31): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Pages->logOut()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:30:08 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH/Views/templates/header.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/templates/header.php(13): session_start()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/header.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Verif.php(20): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:30:32 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH/Views/templates/header.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/templates/header.php(13): session_start()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/header.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Verif.php(20): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:31:27 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH/Views/templates/header.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/templates/header.php(13): session_start()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/header.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(12): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:31:31 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH/Views/templates/header.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/templates/header.php(13): session_start()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/header.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(12): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:31:48 --> session_destroy(): Trying to destroy uninitialized session
+in APPPATH/Controllers/Pages.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Pages.php(28): session_destroy()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Pages->logOut()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:33:10 --> Undefined variable $_SESSION
+in APPPATH/Views/accueil.php on line 3.
+ 1 APPPATH/Views/accueil.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/accueil.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(12): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:40:18 --> Undefined variable $_SESSION
+in APPPATH/Views/infos-personnelles.php on line 11.
+ 1 APPPATH/Views/infos-personnelles.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/infos-personnelles.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Pages->view()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:43:32 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH/Views/templates/header.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/templates/header.php(13): session_start()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/header.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Verif.php(20): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:43:49 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH/Views/templates/header.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/templates/header.php(13): session_start()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/header.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Verif.php(20): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 12:09:23 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH/Views/templates/header.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/templates/header.php(13): session_start()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/header.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Verif.php(20): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 12:09:38 --> Undefined variable $_SESSION
+in APPPATH/Views/infos-personnelles.php on line 14.
+ 1 APPPATH/Views/infos-personnelles.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/infos-personnelles.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Pages->view()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 12:10:40 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH/Views/templates/header.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/templates/header.php(13): session_start()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/header.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Verif.php(20): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 12:12:38 --> syntax error, unexpected token "!", expecting "("
+in APPPATH/Controllers/Verif.php on line 51.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 12:12:45 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH/Views/templates/header.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/templates/header.php(13): session_start()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/header.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Verif.php(20): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 12:17:42 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH/Views/templates/header.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/templates/header.php(13): session_start()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/header.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Verif.php(20): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 12:17:55 --> Undefined variable $_SESSION
+in APPPATH/Views/infos-personnelles.php on line 11.
+ 1 APPPATH/Views/infos-personnelles.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/infos-personnelles.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Pages->view()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 12:19:04 --> session_destroy(): Trying to destroy uninitialized session
+in APPPATH/Controllers/Verif.php on line 52.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Verif.php(52): session_destroy()
+ 3 APPPATH/Controllers/Verif.php(19): App\Controllers\Verif->openSession()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 12:19:18 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH/Views/templates/header.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/templates/header.php(13): session_start()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/header.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Verif.php(20): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 12:19:47 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH/Views/templates/header.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/templates/header.php(14): session_start()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/header.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Verif.php(20): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 12:20:48 --> Undefined variable $_SESSION
+in APPPATH/Views/infos-personnelles.php on line 11.
+ 1 APPPATH/Views/infos-personnelles.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/infos-personnelles.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Pages->view()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 12:21:15 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH/Views/templates/header.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/templates/header.php(15): session_start()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/header.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Verif.php(20): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 13:11:39 --> Undefined array key "spe"
+in APPPATH/Views/findtruck.php on line 6.
+ 1 APPPATH/Views/findtruck.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/findtruck.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Specialite.php(14): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Specialite->getData()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 13:16:36 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH/Views/findtruck.php on line 14.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Specialite.php(14): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Specialite->getData()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 13:17:20 --> Undefined array key "spe"
+in APPPATH/Views/findtruck.php on line 9.
+ 1 APPPATH/Views/findtruck.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/findtruck.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Specialite.php(14): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Specialite->getData()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 13:17:35 --> Undefined array key "spe"
+in APPPATH/Views/findtruck.php on line 8.
+ 1 APPPATH/Views/findtruck.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/findtruck.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Specialite.php(14): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Specialite->getData()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 13:18:31 --> Undefined array key "spe"
+in APPPATH/Views/findtruck.php on line 9.
+ 1 APPPATH/Views/findtruck.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/findtruck.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Specialite.php(14): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Specialite->getData()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 13:18:44 --> Undefined array key "spe"
+in APPPATH/Views/findtruck.php on line 9.
+ 1 APPPATH/Views/findtruck.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/findtruck.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Specialite.php(14): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Specialite->getData()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 13:19:12 --> Undefined array key "spe"
+in APPPATH/Views/findtruck.php on line 9.
+ 1 APPPATH/Views/findtruck.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/findtruck.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Specialite.php(14): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Specialite->getData()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 13:19:21 --> Undefined array key "spe"
+in APPPATH/Views/findtruck.php on line 9.
+ 1 APPPATH/Views/findtruck.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/findtruck.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Specialite.php(14): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Specialite->getData()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 13:20:08 --> Undefined array key "spe"
+in APPPATH/Views/findtruck.php on line 9.
+ 1 APPPATH/Views/findtruck.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/findtruck.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Specialite.php(14): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Specialite->getData()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 13:20:46 --> Undefined array key "spe"
+in APPPATH/Views/findtruck.php on line 9.
+ 1 APPPATH/Views/findtruck.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/findtruck.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Specialite.php(14): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Specialite->getData()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 13:20:52 --> Undefined array key "spe"
+in APPPATH/Views/findtruck.php on line 9.
+ 1 APPPATH/Views/findtruck.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/findtruck.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Specialite.php(14): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Specialite->getData()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 13:29:15 --> Undefined array key "spe"
+in APPPATH/Views/findtruck.php on line 9.
+ 1 APPPATH/Views/findtruck.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/findtruck.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Specialite.php(14): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Specialite->getData()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 13:43:29 --> Undefined array key "spe"
+in APPPATH/Views/findtruck.php on line 9.
+ 1 APPPATH/Views/findtruck.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/findtruck.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Specialite.php(14): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Specialite->getData()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 13:43:43 --> Undefined array key "spe"
+in APPPATH/Views/findtruck.php on line 9.
+ 1 APPPATH/Views/findtruck.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/findtruck.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Specialite.php(14): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Specialite->getData()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 13:46:35 --> Undefined array key "spe"
+in APPPATH/Views/findtruck.php on line 9.
+ 1 APPPATH/Views/findtruck.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/findtruck.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Specialite.php(14): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Specialite->getData()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 13:58:37 --> Undefined array key "spe"
+in APPPATH/Views/findtruck.php on line 9.
+ 1 APPPATH/Views/findtruck.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/findtruck.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/InfosTrucks.php(15): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\InfosTrucks->getData()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 14:02:23 --> Undefined array key "spe"
+in APPPATH/Views/findtruck.php on line 9.
+ 1 APPPATH/Views/findtruck.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/findtruck.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/InfosTrucks.php(20): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\InfosTrucks->getData()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 14:10:45 --> Undefined array key "pro"
+in APPPATH/Controllers/CreateAccount.php on line 54.
+ 1 APPPATH/Controllers/CreateAccount.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/CreateAccount.php(24): App\Controllers\CreateAccount->createAccount()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CreateAccount->start()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 14:11:37 --> Undefined array key "id_user"
+in APPPATH/Controllers/Verif.php on line 33.
+ 1 APPPATH/Controllers/Verif.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Verif.php(18): App\Controllers\Verif->verifIfExist()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 14:13:32 --> syntax error, unexpected token "}"
+in APPPATH/Controllers/Verif.php on line 18.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 14:13:43 --> Undefined variable $id
+in APPPATH/Controllers/Verif.php on line 35.
+ 1 APPPATH/Controllers/Verif.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Verif.php(20): App\Controllers\Verif->verifIfExist()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 14:14:40 --> Undefined array key "id_role"
+in APPPATH/Controllers/Verif.php on line 63.
+ 1 APPPATH/Controllers/Verif.php(63): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Verif.php(22): App\Controllers\Verif->openSession()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 14:15:41 --> Undefined array key "role"
+in APPPATH/Views/templates/header.php on line 25.
+ 1 APPPATH/Views/templates/header.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Verif.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Verif->start()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 14:26:49 --> Undefined array key "spe"
+in APPPATH/Views/findtruck.php on line 9.
+ 1 APPPATH/Views/findtruck.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/findtruck.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/InfosTrucks.php(20): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\InfosTrucks->getData()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 14:40:26 --> Undefined array key "role"
+in APPPATH/Views/templates/header.php on line 22.
+ 1 APPPATH/Views/templates/header.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/header.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(31): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Pages->logOut()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 15:05:30 --> Undefined array key "spe"
+in APPPATH/Views/findtruck.php on line 9.
+ 1 APPPATH/Views/findtruck.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/findtruck.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/InfosTrucks.php(20): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\InfosTrucks->getData()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 15:07:06 --> Undefined array key "spe"
+in APPPATH/Views/findtruck.php on line 9.
+ 1 APPPATH/Views/findtruck.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/findtruck.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/InfosTrucks.php(20): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\InfosTrucks->getData()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 15:07:47 --> Undefined array key "spe"
+in APPPATH/Views/findtruck.php on line 9.
+ 1 APPPATH/Views/findtruck.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/findtruck.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/InfosTrucks.php(20): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\InfosTrucks->getData()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 15:07:50 --> Undefined array key "cities"
+in APPPATH/Views/findtruck.php on line 23.
+ 1 APPPATH/Views/findtruck.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/findtruck.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/InfosTrucks.php(20): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\InfosTrucks->getData()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 15:07:58 --> Undefined array key "cities"
+in APPPATH/Views/findtruck.php on line 23.
+ 1 APPPATH/Views/findtruck.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/findtruck.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/InfosTrucks.php(20): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\InfosTrucks->getData()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 15:08:01 --> Undefined array key "cities"
+in APPPATH/Views/findtruck.php on line 23.
+ 1 APPPATH/Views/findtruck.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/findtruck.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/InfosTrucks.php(20): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\InfosTrucks->getData()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 15:25:09 --> syntax error, unexpected variable "$routes", expecting "," or ";"
+in APPPATH/Config/Routes.php on line 37.
+ 1 SYSTEMPATH/CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 15:37:14 --> syntax error, unexpected variable "$new"
+in APPPATH/Controllers/Trucks.php on line 42.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 15:37:23 --> mysqli_sql_exception: Table 'TrucksmaniaDB.Food_Trucks' doesn't exist in /app/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/system/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+#4 /app/system/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 /app/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /app/app/Controllers/Trucks.php(11): CodeIgniter\BaseModel->findAll()
+#7 /app/system/CodeIgniter.php(934): App\Controllers\Trucks->findTruck()
+#8 /app/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /app/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-01 15:37:23 --> Table 'TrucksmaniaDB.Food_Trucks' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/Trucks.php(11): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Trucks->findTruck()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 15:37:45 --> There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 762.
+ 1 SYSTEMPATH/BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(729): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Controllers/Trucks.php(43): CodeIgniter\Model->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Trucks->findTruck()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 15:38:43 --> There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 762.
+ 1 SYSTEMPATH/BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(729): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Controllers/Trucks.php(43): CodeIgniter\Model->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Trucks->findTruck()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 15:40:08 --> There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 762.
+ 1 SYSTEMPATH/BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(729): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Controllers/Trucks.php(44): CodeIgniter\Model->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Trucks->findTruck()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 15:40:27 --> There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 762.
+ 1 SYSTEMPATH/BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(729): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Controllers/Trucks.php(43): CodeIgniter\Model->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Trucks->findTruck()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 15:44:16 --> Array to string conversion
+in SYSTEMPATH/Database/Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Query.php(329): implode()
+ 3 SYSTEMPATH/Database/Query.php(310): CodeIgniter\Database\Query->matchNamedBinds()
+ 4 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH/Database/BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query()
+ 7 SYSTEMPATH/Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 8 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 9 SYSTEMPATH/Model.php(729): CodeIgniter\BaseModel->insert()
+10 APPPATH/Controllers/Trucks.php(43): CodeIgniter\Model->insert()
+11 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Trucks->findTruck()
+12 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 15:51:23 --> Undefined array key "specialiste"
+in APPPATH/Controllers/Trucks.php on line 13.
+ 1 APPPATH/Controllers/Trucks.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Trucks->findTruck()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 22:15:37 --> Cannot declare class App\Controllers\Test because the name is already in use
+in APPPATH/Controllers/Test.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-01 22:17:25 --> Undefined variable $db
+in APPPATH/Controllers/Lala.php on line 10.
+ 1 APPPATH/Controllers/Lala.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Lala->test()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 22:18:10 --> Undefined variable $results
+in APPPATH/Controllers/Lala.php on line 12.
+ 1 APPPATH/Controllers/Lala.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Lala->test()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 22:20:30 --> syntax error, unexpected variable "$db", expecting "function" or "const"
+in APPPATH/Models/test.php on line 10.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 APPPATH/Controllers/Lala.php(10): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Lala->test()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 22:20:52 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Models/test.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-01 22:21:10 --> Constant expression contains invalid operations
+in APPPATH/Models/test.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-01 22:29:33 --> Class "App\Models\test" not found
+in APPPATH/Controllers/Lala.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Lala->test()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 22:29:48 --> Class "App\Controllers\Database" not found
+in APPPATH/Controllers/Lala.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Lala->test()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 22:29:57 --> Constant expression contains invalid operations
+in APPPATH/Models/database.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-01 22:30:34 --> Undefined variable $db
+in APPPATH/Models/database.php on line 13.
+ 1 APPPATH/Models/database.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Lala.php(11): App\Models\Database->getCities()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Lala->test()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
